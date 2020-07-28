@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+    
+    {% block content %}
+    <form method="POST" action="/create" enctype="multipart/form-data">
+    <input type="file" name="file">
+    <br>
+    <input type="text" name="extension">
+    <br>
+    <input type="text" name="file_name">
+    <br>
+    <input type="submit">
+    </form>
+    {% endblock %}

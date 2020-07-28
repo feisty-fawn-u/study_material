@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+    
+    {% block content %}
+    
+    <h1>{{Year}}</h1>
+   
+
+<button class="w3-button w3-block w3-teal"><a href="{{ url_for('presentation') }}">Presentation</a></button>
+<button class="w3-button w3-block w3-teal"><a href="{{ url_for('tutorial') }}">Tutorial</a></button>
+
+
+
+
+
+
+    {% endblock %}
